@@ -2,7 +2,7 @@ import React from "react";
 
 interface RProps {
   url: string;
-  className: string;
+  className?: string;
 }
 
 export default function Avatar({ url, className }: RProps) {
