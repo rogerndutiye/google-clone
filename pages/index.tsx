@@ -83,7 +83,6 @@ const Home: NextPage = () => {
           />
           <MicrophoneIcon className="h-5" />
         </div>
-
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
           <button onClick={search} className="btn">
             Google Search
